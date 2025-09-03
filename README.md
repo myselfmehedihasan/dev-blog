@@ -1,12 +1,5 @@
-
-
 ````markdown
 # 🚀 Dev Blog
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)  
-[![Node.js](https://img.shields.io/badge/Node.js-16-green)](https://nodejs.org/)  
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248)](https://www.mongodb.com/)  
 
 A **full-stack MERN blogging platform** with Tailwind CSS for a sleek, responsive design. Users can create, read, update, and delete posts, with authentication, search functionality, and admin management.  
 
