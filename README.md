@@ -1,12 +1,130 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+````markdown
+# 🚀 Dev Blog
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)  
+[![Node.js](https://img.shields.io/badge/Node.js-16-green)](https://nodejs.org/)  
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248)](https://www.mongodb.com/)  
 
-## Expanding the ESLint configuration
+A **full-stack MERN blogging platform** with Tailwind CSS for a sleek, responsive design. Users can create, read, update, and delete posts, with authentication, search functionality, and admin management.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**🌐 Live Demo:** [Dev Blog Live](https://dev-crafted.netlify.app/)  
+
+---
+
+## ✨ Features
+
+- 🔐 **User Authentication** – Secure login & registration with JWT  
+- ✏️ **CRUD Operations** – Create, read, update, delete blog posts  
+- 📱 **Responsive Design** – Mobile-first UI with Tailwind CSS  
+- 🛠️ **Admin Panel** – Manage posts and users easily  
+- 🔍 **Search & Filter** – Find posts by title or content  
+- 🐞 **Debugging & API Fixes** – Resolved integration issues for stable performance  
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend       | Backend       | Database    | Tools & Testing |
+|----------------|---------------|------------|----------------|
+| React.js       | Node.js       | MongoDB    | Postman        |
+| Tailwind CSS   | Express.js    |            | Chrome DevTools |
+|                | JWT Auth      |            | Git & GitHub   |
+
+---
+
+
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/myselfmehedihasan/dev-blog.git
+cd dev-blog
+````
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+* Create a `.env` file and add environment variables (MongoDB URI, JWT secret).
+* Start backend:
+
+```bash
+npm start
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+## 📄 API Endpoints
+
+### Authentication
+
+* `POST /api/auth/register` – Register new user
+* `POST /api/auth/login` – Login existing user
+
+### Posts
+
+* `GET /api/posts` – Get all posts
+* `GET /api/posts/:id` – Get single post by ID
+* `POST /api/posts` – Create a post
+* `PUT /api/posts/:id` – Update a post
+* `DELETE /api/posts/:id` – Delete a post
+
+> *Some endpoints require authentication.*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Add feature"`
+4. Push: `git push origin feature-name`
+5. Open a Pull Request
+
+---
+
+## 📚 Future Enhancements
+
+* Comments section for posts
+* User profile customization
+* Social media sharing
+* Flutter mobile version
+
+---
+
+## 🎓 Author
+
+**Mehedi Hasan** – [GitHub](https://github.com/myselfmehedihasan) | [LinkedIn](https://www.linkedin.com/in/mehedihasan) | [Portfolio](https://dev-crafted.netlify.app/)
+
+---
+
+## 📝 License
+
+MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+
+---
+```
