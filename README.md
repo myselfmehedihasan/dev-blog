@@ -1,5 +1,5 @@
 ````markdown
-# 🚀 Dev Blog
+## 🚀 Dev Blog
 
 A **full-stack MERN blogging platform** with Tailwind CSS for a sleek, responsive design. Users can create, read, update, and delete posts, with authentication, search functionality, and admin management.  
 
